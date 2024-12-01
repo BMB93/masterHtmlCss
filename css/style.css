@@ -1,0 +1,1015 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    word-spacing: 4px;
+}
+
+            /* CONFIGURATION GENERALE SUR TOUTES LA PAGES, REDUCTION DE REPETITION */
+.color-black{
+    color: rgb(0, 0, 0);
+} 
+
+.color-green{
+    color: #28beb2;
+}
+
+.color-white{
+    color: #fff;
+}
+.container-fluid{
+    padding: 0% 4%;
+    margin-top: -2%;
+    margin-bottom: 80px;
+   
+} 
+
+.align-c{
+    text-align: center;
+}
+
+.align-l{
+    text-align: left;
+}
+
+.align-r{
+    text-align: right;
+}
+
+.align.j{
+    text-align: justify;
+}
+
+.btn{
+    margin: 5px 10px;
+    background-color: #28beb2;
+}
+
+.btn1{
+    background: inherit;
+}
+
+.btn:hover{
+    background-color: #149b90fa;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+}
+h1{
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-white{
+    background-color: #fff;
+}
+
+
+.section-green{
+    background: linear-gradient(63.35deg, #003665d5, #1e8894ea );
+    padding: 3.2rem 0rem;
+}
+
+.section-gray{
+    background-color: rgba(128, 128, 128, 0.171);
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    
+}
+
+.section-black{
+    background-color: rgb(0, 0, 0);
+    padding-top: 15rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+}
+
+
+/*Diminuer les bottom des pages pour eviter le gaspillage d'espace */
+.sec-height{
+    padding-bottom: 0px;
+}
+
+
+
+
+/* Section de la barre d'info */
+.info-bar{
+    border-top: 2px solid#0d6e79;
+    height:1.5rem;
+    text-align:center;
+}
+
+.icona{
+    color: #1e8894;
+}
+
+
+/* section navigation */
+.navig{
+    margin: 0px 20px 0px 9px;
+}
+
+.nav-li{
+    margin: 0px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-a{
+    color: #fff
+}
+
+.nav-a:hover{
+    color: #13cce0
+}
+
+.logo{
+    width:5%;
+}
+
+
+ #cppe{
+     color: #fff;
+     font-family: "Montserrat-black";
+     font-size: 2rem;
+     margin-right: auto;
+     margin-left: 3px;
+ }
+
+
+
+/* Section de l'entete de la page*/
+
+.sous-nav{
+     margin-top: 5%;
+ }
+
+ .sous-nav p{
+     color: #fff;
+ }
+ 
+ .pub{
+     width: 60%;
+     height: 300px;
+     border-radius: 5%;
+     margin: 0px 0% 0px 30%;
+ }
+
+  /* Nos valeurs */
+
+  #block1{
+    
+    margin-top: -95px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    align-content: center;
+    border: 15px solid #fff;
+    border-radius: 1% ;
+  }
+
+  .sec-title{
+    color: #28beb1ec;
+    padding: 7% 0px;
+    font-weight: bold;
+}
+
+  .value{
+      text-align: center;
+  }
+
+
+.icona{
+    margin-bottom: 15px;
+}
+
+/* section qui sommes nous*/
+.qui{
+    text-align: justify;
+}
+
+/* Section des article de blog */
+.articles{
+    margin-top: -6%;
+}
+
+.article-card{
+   padding: 10px 7px;
+}
+
+.card h4{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.image-card{
+    width: 92%;
+    margin: 5px 10px;
+}
+
+.card-title{
+    margin: 0px;
+    padding: 0px;
+}
+
+.staff-card{
+    padding-bottom:10%;
+}
+
+    /*  Section pour le staff de direction */
+.Direction{
+        margin-top: -5%;
+    } 
+
+/* Section des temoignages de nos etudiants */
+.testimonials{
+    background: linear-gradient(63.22deg,#003665,#00a3b6);
+    margin-top: -5%;
+}
+
+.bg{
+    background-image: url("../image/rond-pointille.svg");
+    padding: 0% 7%;
+    padding-bottom: 4%;
+    background-repeat: no-repeat;
+}
+
+.bg h1{
+    margin-top: -4%;
+    margin:0px 15px
+}
+
+.testimonials-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+}
+
+.testimonial-text{
+    width: 50%;
+   margin-left: 25%;
+   
+}
+
+  /* regle au niveau de la section cta */
+.cta{
+    padding: 10% 7%;
+    text-align: start;
+    margin-top: -8%;
+}
+
+
+.cta-image{
+    width: 250px;  
+}
+
+.cta-text{
+    margin-top: 0%;
+    font-weight: bold;
+    font-size: 3rem;   
+}
+
+  /* regle au niveau de la section footer */
+
+  #footer{
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right:1rem ;
+  }
+
+.border-footer{
+    border-left: 5px dotted #fff;
+}
+
+.block-foot{
+    display: block;
+}
+
+#copyright{
+    border-top: 0.2px solid #fff;
+}
+
+/* ******************************************************************************************
+                         REGLE POUR LA PAGE DE CONNEXION
+********************************************************************************************* */
+
+/* La section principale */
+.sect-connexion{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+#bg-page-connexion{
+    background-image: url("../image/rond-pointille.svg");
+    background-color: #1e8894;
+    background-position:bottom;
+    background-size: 200px;
+    background-repeat:space;
+    height: 722px; 
+}
+
+
+/* la rangee de la section */
+
+.form-connex{
+    margin: 0px 0px;
+}
+
+
+.logo-cppe{
+    width: 80px;
+    height: 80px;
+    margin-top: 5%;
+}
+
+.connecter{
+    margin: 10px 20px;
+    padding-top:25px ;
+}
+
+
+.form-inp{
+    margin: 10px;
+}
+
+input{
+        width: 300px;
+        height: 40px;
+        margin: 0px 14px 0px 2px;
+        border:1px solid #1e889446;
+        border-radius: 2px; 
+}
+
+
+select{
+    width: 210px;
+    height: 40px;
+    margin: 0px 14px 0px 2px;
+    border:1px solid #1e889446;
+    border-radius: 2px; 
+}
+
+
+.submit{
+    margin-left:12px;
+    background-color:#28beb2;
+}
+
+.submit:hover{
+    background-color: #1e8894;
+}
+
+.text-connex{
+    font-weight: bold;
+    padding: 10px;
+}
+
+#code-etu{
+    text-align:right;
+    margin-right: 29%;
+}
+
+.pouls{
+    box-shadow: 0px 0px #1e8894;
+    border: none;
+    animation: poul 1s infinite;
+    margin-left: 30%;   
+}
+
+@keyframes poul {
+    to{
+        box-shadow: 0 0 0 10px;
+    }
+}
+
+
+    /************************************************
+                    PAGE D'INSCRIPTION
+        **************************************************/
+    
+    .bg-insc{
+        padding: 3% -25%;
+        margin: 2% -2%;
+        margin-bottom: -8%;
+    }
+
+    .bg-image{
+        width: 100%;
+    }
+
+    .inscription {
+        width: 25%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    hr {
+        border: 5px dotted;
+        width: 9%;
+        margin: 5px auto;
+        border-bottom: none;
+        color: #1e8894;
+    }
+
+    .form{
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .formulaire{
+        background-color: #049cad2c;
+        border-radius: 1%;
+    }
+
+  #section1, #section2, #section3, #section4
+  {
+      padding: 10px 20px;
+      margin: 10px 0 20px 30px;
+      border: 2px solid rgba(4, 111, 129, 0.644);
+  }
+
+
+  #section1:hover,  #section2:hover,  #section3:hover, #section4:hover
+  {
+      box-shadow: 5px 6px 5px #1e8894;
+  }
+
+
+  #section1 select, #section2 input, select, #section3 input, #section4 input
+  {
+    width: 300px;
+    height: 40px;
+    margin: 0px 2px;
+    border: 0.3px solid #02809186;
+  }
+
+ 
+  #section2 .radio, #section4 .radio, .check
+  {
+      width: 70px;
+      height: 20px;
+      margin: 0px 2px;
+  }
+
+  #section2 label, #section3 label, #section4 label
+  {
+    width: 300px;
+    padding: 10px 0 15px 40px;
+    display: inline-block;
+  }
+
+
+  legend
+  {
+      font-weight: bold;
+      font-size: 13px;
+      color: #444;
+  }
+
+  .ins-submit
+  {
+      float: right;
+      width: 100px;
+      height: 30px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .test
+  {
+      text-align: center;
+      justify-content:space-between;
+      margin-left: 4%;
+  }
+
+  .submit:hover
+  {
+      box-shadow: 0px 0px 4px;
+      background-color: rgb(105, 105, 228);
+  }
+
+
+
+/* ******************************************************************************************
+                         REGLE POUR LA PAGE DE CONTACT
+********************************************************************************************* */
+.title-map{
+    text-align: center;
+    
+}
+
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+
+.form-contact{
+    padding-top: 5%;
+}
+
+
+.form-contact input
+{
+  width: 250px;
+  height: 40px;
+  margin: 2%;
+  margin-left: 10%;
+  border: 0.3px solid #02809186;
+  
+  text-align: center;
+}
+
+.container-contact{
+    margin: 5% 15%;
+    width: 70%;
+}
+
+.textarea{
+    width: 80%;
+    height: 300px;
+    margin-left:8%;
+    border: 0.3px solid #02809186;
+}
+
+.envoie{
+    margin-left: 20%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+    /* ###############################  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   ################################
+
+                                  REGLE POUR LES MEDIAS QUERIES
+        ********************************************************************************************* */
+ @media screen and (min-width:200px) and (max-width:600px){
+     *{
+         margin: 0px;
+         padding: 0px;
+     }
+
+
+     .logo{
+        width:15%;
+    } 
+
+     .hide1, .hide2{
+        display: none;         
+     }
+     .pub{
+         width: 80%;
+        margin-left: 10%;
+     }
+
+     .section-green{
+        background: linear-gradient(63.35deg, #003665d5, #1e8894ea );
+        padding: 3.2rem 0rem;
+    }
+
+
+     /* regle au niveau de la section qui sommes nous */
+     .qui{
+         width: 100%;
+     }
+     .contain{
+        padding: 0% 0%;       
+     }
+
+    
+     .Qui-image{
+         width: 100%;
+         height: 200px;
+     }
+      /* regle au niveau de la section article de blog */
+      .articles{
+        margin-top: -18%;
+        padding-bottom: 0%;
+    }
+      .article-card{
+          width: 50%;
+      }
+       /* regle au niveau de la section ataff de direction */
+       .Direction{
+        margin-top: -18%;
+       }
+
+       .staff-card{
+           width: 80%;
+           margin-left: 10%;
+       }
+
+       .staff-image{
+            width: 100%;
+       }
+
+        /* regle au niveau de la section temoignages */
+        .testimonials{
+            padding-bottom: 0%;
+        }
+
+        .testimonials-image{
+            width: 50px;
+            height: 50px;
+            border-radius: 80%;
+        }
+
+        .testimonial-text{
+            width: 75%;
+            text-align:start;
+            font-size: 1rem;
+        }
+
+      /* regle au niveau de la section cta */
+        .cta{
+            margin-top: -19%;
+        }
+
+        .cta-image{
+            width: 150px; 
+            margin-left: 20%;
+        }
+        
+        .cta-text{
+            margin-top: 0%;
+            font-weight: bold;
+            font-size: 1.5rem; 
+            text-align: center;  
+        }
+
+
+        /* regle au niveau de la section footer */
+
+        .div-footer{
+            margin-left: 2px;
+            border-left: none;
+            border-right: none;
+            border-bottom: 3px dotted #fff;
+            text-align: start;
+        }
+
+        
+
+        
+         /************************************************
+                    PAGE DE CONNEXION
+        **************************************************/
+        .sect-connexion{
+         text-align: center;
+        }
+
+        #bg-page-connexion{
+            display:none;
+        }
+
+        input{
+            width: 250px;
+            height: 40px;
+            margin: 0px 14px 0px 2px;
+            border:1px solid #1e889446;
+            border-radius: 2px; 
+         }
+
+         select{
+            width: 150px;
+            height: 40px;
+            margin: 0px 14px 0px 2px;
+            border:1px solid #1e889446;
+            border-radius: 2px; 
+        }
+     
+
+     /************************************************
+                    PAGE D'INSCRIPTION
+        **************************************************/
+        .bg-insc{
+            margin-top: 15%;
+            
+        }
+
+        .navigation{
+            height: auto;
+        }
+
+
+        #section1 select, #section2 input, select, #section3 input, #section4 input
+        {
+            width: 200px;
+            height: 30px;
+            margin: 0px 2px;
+            border: 0.3px solid #02809186;
+        }
+
+        #section2 .radio, #section4 .radio, .check
+        {
+            width: 70px;
+            height: 20px;
+            margin: 0px 2px;
+        }
+      
+        #section2 label, #section3 label, #section4 label
+        {
+          width: 200px;
+          padding: 10px 0 15px 20px;
+          display: inline-block;
+        }
+
+        .inscription {
+            text-align: center;
+            margin-top: 15px;
+            margin-left: 15%;
+        }
+
+
+        /* ******************************************************************************************
+                         REGLE POUR LA PAGE DE CONTACT
+        ********************************************************************************************* */
+        .title-map{
+         text-align: center;
+         line-height: 1;    
+        }
+
+        #map{
+            width: 100%;
+            height: 400px;
+        }
+
+
+        .form-contact{
+            padding-top: 5%;
+        }
+
+
+        .form-contact input
+        {
+        width: 200px;
+        height: 40px;
+        margin: 2%;
+        margin-left:15%;
+        border: 0.3px solid #02809186;
+        
+        text-align: center;
+        }
+
+        .container-contact{
+            margin: 5% 10%;
+            width: 90%;
+        }
+
+        .textarea{
+            width: 70%;
+            height: 300px;
+            margin-left:15%;
+            border: 0.3px solid #02809186;
+        }
+
+        .envoie{
+            margin-left: 50%;
+            align-items: center;
+
+        }
+
+    }
+
+
+
+
+
+        @media screen and (min-width:590px) and (max-width:700px) {
+
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 14px;
+                word-spacing: 4px;
+            }
+
+            .hide1{
+            display: none;         
+            }
+
+            .logo{
+                width:9%;
+            }
+
+            /* regle au niveau de la section article de blog */
+            .articles{
+                margin-top: -16%;
+            }
+
+
+            /* section staff direction */
+            .staff-image{
+                width: 100%;
+           } 
+
+            /* regle au niveau de la section temoignages */
+        .testimonials{
+            padding-bottom: 3%;
+        } 
+
+             /* regle au niveau de la section cta */
+            .cta{
+                margin-top: -20%;
+            }
+
+            .cta-image{
+                width: 150px; 
+                margin-left: 35%; 
+            }
+
+            .cta-text{
+                margin-top: 0%;
+                font-weight: bold;
+                font-size: 1.5rem; 
+                text-align: center;  
+            }
+
+            /* section footer */
+
+            .div-footer{
+                margin-left: 2px;
+                border-left: none;
+                border-right: none;
+                border-bottom: 3px dotted #fff;
+                text-align: start;
+            }
+
+            /************************************************
+                            PAGE DE CONNEXION
+                **************************************************/
+                .sect-connexion{
+                    text-align: center;
+                }
+        
+                #bg-page-connexion{
+                    display:none;
+                }
+
+
+                /************************************************
+                            PAGE D'INSCRIPTION
+                **************************************************/
+                .inscription {
+                    text-align: center;
+                    margin-top: 15px;
+                    margin-left: 25%;
+                }
+
+                .bg-insc{
+                    margin-top: 15%;
+                }
+        }
+
+
+
+
+ @media screen and (min-width:760px) and (max-width:1020px) {
+    .hide2{
+       display: none; 
+       orientation:landscape;        
+    }
+
+    .logo{
+        width:9%;
+    } 
+
+     /* regle au niveau de la section article de blog */
+     .articles{
+        margin-top: -11%;
+    }
+
+     /* section staff direction */
+     .staff-image{
+        width: 100%;
+   } 
+
+    /* regle au niveau de la section footer */
+      .div-footer{
+        margin-left: 15px;
+        border-left: 1px solid #fff;
+        text-align: start;
+    }
+
+     /* regle au niveau de la section cta */
+     .cta-image{
+        width: 200px; 
+        margin-left: 35%; 
+    }
+    
+    .cta-text{
+        margin-top: 0%;
+        font-weight: bold;
+        font-size: 2rem; 
+        text-align: center;  
+    }
+
+ /* section footer */
+
+            .div-footer{
+                margin-left: 2px;
+                border-left: none;
+                border-right: none;
+                border-left: 3px dotted #fff;
+                text-align: start;
+            }
+
+
+    /************************************************
+                    PAGE DE CONNEXION
+        **************************************************/
+        .sect-connexion{
+            text-align: center;
+           }
+   
+           #bg-page-connexion{
+               margin-left:33.3%;
+               margin-top: -100%;
+               height: auto;               
+           }
+   
+           input{
+               width: 210px;
+               height: 40px;
+               margin: 0px 0px 0px 2px;
+               margin-right: 0%;
+               border:1px solid #1e889446;
+               border-radius: 2px; 
+            }
+   
+            select{
+               width: 90px;
+               height: 40px;
+               margin: 0px 30px 0px 0px;
+               border:1px solid #1e889446;
+               border-radius: 2px; 
+           }
+
+           /************************************************
+                    PAGE D'INSCRIPTION
+        **************************************************/
+
+           .bg-insc{
+            margin-top: 15%;
+        }
+}
+
+@media screen and (min-width:1023px) and (max-width:1050px){
+
+    /* section footer */
+
+    footer .btn{
+        margin-left: 10%;
+    }
+
+    /************************************************
+                    PAGE DE CONNEXION
+        **************************************************/
+        .sect-connexion{
+            margin-left:5%;
+           }
+   
+           #bg-page-connexion{
+               margin-left: 50%;
+               margin-top: -100%;
+               height: 1055px;               
+           }
+           
+
+           input{
+               width: 350px;
+               height: 40px;
+               margin: 0px 0px 0px 2px;
+               margin-right: 0%;
+               border:1px solid #1e889446;
+               border-radius: 2px; 
+            }
+   
+            select{
+               width: 130px;
+               height: 40px;
+               margin: 0px 30px 0px 0px;
+               border:1px solid #1e889446;
+               border-radius: 2px; 
+           }
+
+           #code-etu{
+               font-weight: bold;
+               
+           }
+}

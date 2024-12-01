@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Connexion</title>
+    <link rel="icon" href="image/logo.png"/>
+     <!-- Lien de Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+    <!--  Ma/mes propres css liens -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--la section pour les icons depuis le site www.fontawesome.com -->
+    <script src="https://kit.fontawesome.com/d44910497e.js" crossorigin="anonymous"></script>
+
+    <!-- Javascript from Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<!--Google font Montserrat -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+<body >
+
+    <!-- section de la forme de connexion des etudiants-->
+    <section class="sect-connexion">
+
+        <div class="row form-connex">
+
+            <div class="col-lg-4 col-md-4 col-xl-6 col-sm-12 col1">
+                <img class="logo-cppe" src="image/logo.png" alt="logo du centre">
+                <h4 class="text-connex color-green"> Connectez à votre compte d'étudiant</h4>
+                <p> Actualisez ou Visualisez votre dossier estudiantin</p>
+
+                <div class="connecter">
+                    <form action="conexion@etudiant.php" method="POST">
+                        <label> Option : </label>
+                        <select name="option" id="option">
+                            <option value="IT"> Technique Informatique </option>
+                            <option value="Telecom"> Telecom</option>
+                            <option value="Inf Bureautique"> Informatique Bureautique </option>
+
+                            <option value="Mecanique auto" selected="selected"> Mecanique auto </option>
+                            <option value="Construction metallique"> Construction metallique </option>
+                            <option value="Mecanique moto">Mecanique moto </option>
+
+                            <option value="Plomberie"> Plomberie </option>
+                            <option value="Refrigerartion"> Refrigerartion </option>
+                            <option value="Electricite"> Electricite </option>
+
+                        </select> <br>
+
+
+                        <input class="form-inp" type="text" name="Nom" id="nom" required="required"
+                            placeholder="  Votre nom d'etudiant "> <br>
+
+
+                        <input class="form-inp" type="text" name="Prenom" id="prenom" required="required"
+                            placeholder="  Votre Prénom d'etudiant "> <br>
+
+
+                        <input class="form-inp" type="password" name="Passcode" id="code" required="required"
+                            placeholder=" Tapez votre Code étudiant "> <br>
+
+                        <input class="submit" type="submit" value="Connecter">
+                    </form>
+                </div>
+                <p id="code-etu"> Code étudiant oublié ?</p>
+
+                <div>
+                    <p style="font-weight: bold;"> Vous n'êtes pas encore un étudiant? Alors <img src="image/down.png" width="32px" style="margin-top: 25px;" alt=""> </p>
+                   
+                    <a type="button" class="btn btn-dark button-download pouls" href="inscription.html" >  <i class="fas fa-user-plus"> </i> inscrivez-vous</a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-8 col-sm-0 col" id="bg-page-connexion">
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
